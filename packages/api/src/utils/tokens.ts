@@ -99,6 +99,7 @@ const googleModels = {
   'gemini-2.0': 2000000,
   'gemini-2.0-flash': 1000000,
   'gemini-2.0-flash-lite': 1000000,
+  'gemini-3-pro-preview': 1000000,
   'gemini-1.5': 1000000,
   'gemini-1.5-flash': 1000000,
   'gemini-1.5-flash-8b': 1000000,

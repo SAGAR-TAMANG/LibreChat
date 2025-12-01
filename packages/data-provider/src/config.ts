@@ -1075,6 +1075,7 @@ export const defaultModels = {
     // Gemini 2.0 Models
     'gemini-2.0-flash-001',
     'gemini-2.0-flash-lite',
+    'gemini-3-pro-preview',
   ],
   [EModelEndpoint.anthropic]: sharedAnthropicModels,
   [EModelEndpoint.openAI]: [

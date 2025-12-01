@@ -58,19 +58,19 @@ export default defineConfig(({ command }) => ({
       },
       includeAssets: [],
       manifest: {
-        name: 'LibreChat',
-        short_name: 'LibreChat',
+        name: 'RiverChat',
+        short_name: 'RiverChat',
         display: 'standalone',
         background_color: '#000000',
-        theme_color: '#009688',
+        theme_color: '#ffffffff',
         icons: [
           {
-            src: 'assets/favicon-32x32.png',
+            src: 'assets/favicon.ico',
             sizes: '32x32',
             type: 'image/png',
           },
           {
-            src: 'assets/favicon-16x16.png',
+            src: 'assets/favicon.ico',
             sizes: '16x16',
             type: 'image/png',
           },
@@ -80,12 +80,12 @@ export default defineConfig(({ command }) => ({
             type: 'image/png',
           },
           {
-            src: 'assets/icon-192x192.png',
+            src: 'assets/favicon.ico',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: 'assets/maskable-icon.png',
+            src: 'assets/favicon.ico',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
